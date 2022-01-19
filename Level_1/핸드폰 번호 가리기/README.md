@@ -5,10 +5,12 @@
 전화번호가 문자열 phone_number로 주어졌을 때, 전화번호의 뒷 4자리를 제외한 나머지 숫자를 전부 *으로 가린 문자열을 리턴하는 함수, solution을 완성해주세요.
 
 <br/>
+
 ## 제한 조건
 - s는 길이 4 이상, 20이하인 문자열입니다.
 
 <br/>
+
 ## 입출력 예
 | phone_number | return |
 |------|---|
@@ -17,6 +19,7 @@
 
 
 <br/>
+
 ## Solution
 
 ```swift
@@ -39,6 +42,7 @@ func solution(_ phone_number:String) -> String {
 ```
 
 <br/>
+
 ## Check
 - String to Array  
 	map() : 고차함수 map을 사용하여 문자열을 문자 하나하나로 쪼개서 배열로 만드는 방법이다.
